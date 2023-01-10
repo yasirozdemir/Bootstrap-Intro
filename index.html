@@ -19,7 +19,9 @@
         <nav class="navbar navbar-light d-flex justify-content-start container">
           <ul class="navbar-nav bd-navbar-nav flex-row">
             <li class="nav-item mr-3">
-              <a href="#favorites_container" class="nav-link">Favorites</a>
+              <a href="#favorites_container" class="nav-link"
+                >Favorite Albums</a
+              >
             </li>
             <li class="nav-item mr-3">
               <a href="#review_container" class="nav-link">Review</a>
@@ -30,7 +32,7 @@
               >
             </li>
             <li class="nav-item mr-3">
-              <a href="#the-best_container" class="nav-link">The Best</a>
+              <a href="#the-best_container" class="nav-link">The Best Song</a>
             </li>
             <li class="nav-item mr-3">
               <a href="#tapestry_container" class="nav-link">Tapestry</a>
@@ -40,7 +42,7 @@
       </div>
 
       <section id="favorites_container" class="container py-5">
-        <h2>Favorites in 2022</h2>
+        <h2>Favorite Albums in 2022</h2>
         <div class="row">
           <div class="col-6 col-md-4 col-lg-3">
             <div class="card mt-2">
@@ -48,10 +50,14 @@
                 src="https://upload.wikimedia.org/wikipedia/en/d/d5/Harry_Styles_-_Harry%27s_House.png"
                 alt="Harry's House"
               />
-              <p>Harry's House</p>
-              <p>Harry Styles</p>
-              <p>Funk - Pop Rock</p>
-              <p>42 mins</p>
+              <!-- <div class="position-absolute overlay">HELLO</div> -->
+              <!-- <i class="bi bi-three-dots"></i> -->
+              <div class="">
+                <p>Harry's House</p>
+                <p>Harry Styles</p>
+                <p>Funk - Pop Rock</p>
+                <p>42 mins</p>
+              </div>
             </div>
           </div>
           <div class="col-6 col-md-4 col-lg-3">
@@ -318,7 +324,7 @@
         </div>
       </section>
 
-      <section id="tapestry_container" class="container py-5">
+      <section id="tapestry_container" class="container pt-5">
         <div class="row">
           <img
             class="col-xl-3 col-md-4 col-sm-6 p-0"
@@ -406,14 +412,15 @@
 
       <footer class="bg-light d-flex justify-content-center align-items-center">
         <p id="number-of-albums" class="my-0 mr-3"></p>
-        <p class="my-4">Page created by MYOzdemir</p>
-        <button
-          type="button"
-          class="btn btn-secondary ml-3"
-          onclick='location.href="https://github.com/yasirozdemir"'
+        <p class="my-4 mr-3">Page created by MYOzdemir</p>
+        <a
+          href="https://github.com/yasirozdemir/Bootstrap-Intro"
+          target="_blank"
+          class="btn btn-primary btn-lg active my-2 py-1 px-2"
+          role="button"
+          aria-pressed="true"
+          >Github</a
         >
-          <i class="bi bi-github"></i> Github
-        </button>
       </footer>
     </div>
 
